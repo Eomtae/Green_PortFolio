@@ -3,8 +3,21 @@ $('body').append('<footer>');
 $("header").load('./inc.html header nav');
 $('footer').load('./inc.html footer div')
 
+//header scroll background-color change
+$(function(){
+  // 스크롤 시 header fade-in
+  $(document).on('scroll', function(){
+      if($(window).scrollTop() > 200){
+          $("header").removeClass("deactive");
+          $("header").addClass("active");
+      }else{
+          $("header").removeClass("active");
+          $("header").addClass("deactive");
+      }
+  })
 
-
+});
+// -----------------------------
 
 class ArrowPointer {
   constructor() {

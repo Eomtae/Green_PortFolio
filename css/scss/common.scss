@@ -69,24 +69,28 @@ header{
     align-items: center;
     justify-content: space-between;
     position: fixed;
-    z-index: 99;
+    z-index: 9999;
     padding: 2%;
     top: 0;
     right: 0;
     left: 0;
     // background-color: #FF8C32;
-    background-color: #06113C;
+    background-color: transparent;
+    transition: all .5s;
+    &.active{
+      background-color: #fcfcfc;
+    }
     
- 
   nav{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    
     .logo{
-      font-size: 1.5rem;
+      font-size: 2.25rem;
       font-weight: 600;
         a{
-          color: #fcfcfc;
+          color: #06113C;
           cursor: none;
         }
       }
@@ -95,8 +99,10 @@ header{
       display: flex;
       justify-content: space-between;
       align-items: center;
+      font-size: 1.5rem;
+      font-weight: 600;
       a{
-        color: #fcfcfc;
+        color: #06113C;
         cursor: none;
         transition: .5 all;
         position: relative;
@@ -112,8 +118,8 @@ header{
           bottom: -50%;
           left: 0;
           transform: translateX(-5%);
-          border: 3px solid red;
-          width: 0%;
+          border: 3px solid #FF8C32;
+          width: 0;
           opacity: 0;
         }
       }
