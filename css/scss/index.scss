@@ -1,0 +1,173 @@
+$banner-font: 'Italiana',serif;
+$basic-font: 'S-CoreDream-3Light';
+$mark-font:'Koulen' ,cursive;
+$width:1400px;
+
+.video-wrapper{
+    position: relative;
+    width: 100%;
+    video{
+        width: 100%;
+    }
+    
+}
+.video-text{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    font-family: $banner-font;
+    color: #C9764C;
+    text-align: center;
+    h1{
+        font-size: 13rem;
+    }
+    .hash-address-box{
+        display: flex;
+        justify-content: space-between;
+        color: #000;
+        align-items: center;
+        font-size: 24px;
+        padding: 0 2%;
+        span{
+            font-family: $basic-font;
+            font-weight:600;
+          }
+          p{
+            font-size: 1.25rem;
+            font-weight: 600;
+          }
+    }
+}
+
+main{
+    max-width: $width;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    .intro-wrapper{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 6.25rem;
+        .img-box{
+            img{
+                width: 12.5rem;
+                height: 12.5rem;
+                border-radius: 50%;
+                overflow: hidden;
+                object-fit: cover; //이미지 사이즈 맞춰 cover
+            }
+        }
+        figcaption{
+            font-size: 2rem;
+            font-weight: 600;
+            // background-color: #66a44a;
+            // border-radius: 25px;
+        }
+        p{
+            word-break: keep-all;
+            line-height: 1.4;
+        }
+    } // intro-wrapper --------------------
+    .profile-wrapper{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 6.25rem;
+        .profile-box{
+            width: 30%;
+            border-right: solid 1px #292929;
+            letter-spacing: 5px;
+        }
+        .profile-text{
+            width: 50%;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            line-height: 2;
+            background-color: #FCF4EE;
+            border-radius: 25px;
+            .career-text{
+                font-size: 0.875rem;
+                line-height: 1.4;
+            }
+        }
+    }
+    .skill-wrapper{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 3.125rem;
+        .skill-box{
+            width: 30%;
+            border-right: solid 1px #292929;
+            h2{
+                position: sticky;
+                position: -webkit-sticky;
+                top: 9.375rem;
+                letter-spacing: 7px;
+            }
+        }
+        .skill-text{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .icon-layout{
+                width: 100%;
+                background-color: #FCF4EE;
+                border-radius: 25px;
+                display: flex; 
+                justify-content: center;
+                .icon-box{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    margin-right: 6rem;
+                    img{
+                        margin: 1rem;
+                    }
+                }
+                .icon-text{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: flex-start;
+                    font-style: $basic-font;
+                    font-weight: 600;
+                }
+            }
+            
+        }
+    }
+    .btn-wrapper{
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .view-btn{
+            border-radius: 10px;
+            font-size: 2rem;
+            cursor: none;
+            border: none;
+            background-color: #66a44a;
+            padding: 10px 20px;
+            transition: ease-in-out .5s;
+            box-shadow:3px 3px 1px 0.5;
+            color: #fcfcfc;
+            &:hover{
+            background-color: #265112;
+            transform: scale(1.1);
+            transition: ease-in-out .5s;
+            }
+            a{
+                color: #fcfcfc;
+            }
+        }
+    }
+}

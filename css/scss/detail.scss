@@ -1,0 +1,55 @@
+$banner-font: 'Italiana',serif;
+$basic-font: 'S-CoreDream-3Light';
+$mark-font:'Koulen' ,cursive;
+$width:1400px;
+
+main{
+    width: $width;
+    margin: 0 auto;
+    .title-wrap{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        text-align: start;
+        h1{
+            font-family: $mark-font;
+            font-size: 6.25rem;
+        }
+    }
+    .my-works{
+        width: 100%;
+        height: 70vh;        
+        display: flex;
+        justify-content: center;
+        figure{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            img{
+                width: 50%;
+                &:nth-child(2){
+                    width: 30%;
+                    position: absolute;
+                    top: 20%;
+                    left: 25%;
+                    transform: translateX(-50%);
+                }
+                
+                &:nth-child(3){
+                    width: 10%;
+                    position: absolute;
+                    top: 20%;
+                    right: 30%;
+                }
+            }
+        }
+        figcaption{
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
