@@ -42,6 +42,13 @@ main {
   margin: 0 auto;
   text-align: center;
 }
+main .sections {
+  opacity: 0;
+  transition: opacity 3s;
+}
+main .sections.visible {
+  opacity: 1;
+}
 main .intro-wrapper {
   width: 100%;
   height: 50vh;
