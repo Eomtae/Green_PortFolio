@@ -28,12 +28,90 @@
   left: 50%;
   transform: translate(-50%, -50%);
   letter-spacing: 10px;
+  -webkit-animation: fade 1s ease-in-out;
+          animation: fade 1s ease-in-out;
+}
+@-webkit-keyframes fade {
+  0% {
+    filter: blur(7px);
+    -moz-filter: blur(7px);
+    -webkit-filter: blur(7px);
+    opacity: 0;
+  }
+  50% {
+    filter: blur(7px);
+    -moz-filter: blur(7px);
+    -webkit-filter: blur(7px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0);
+    -moz-filter: blur(0);
+    -webkit-filter: blur(0);
+    opacity: 0.9;
+  }
+}
+@keyframes fade {
+  0% {
+    filter: blur(7px);
+    -moz-filter: blur(7px);
+    -webkit-filter: blur(7px);
+    opacity: 0;
+  }
+  50% {
+    filter: blur(7px);
+    -moz-filter: blur(7px);
+    -webkit-filter: blur(7px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0);
+    -moz-filter: blur(0);
+    -webkit-filter: blur(0);
+    opacity: 0.9;
+  }
 }
 
 main {
-  width: 1400px;
+  max-width: 1400px;
   font-family: "S-CoreDream-3Light";
   margin: 0 auto;
+}
+main .pension_wrap {
+  opacity: 0;
+  transform: translateY(100%);
+  transition: 2s;
+}
+main .pension_wrap.active {
+  opacity: 1;
+  transform: translateY(0%);
+}
+main .recipe_wrap {
+  opacity: 0;
+  transform: translateY(100%);
+  transition: 2s;
+}
+main .recipe_wrap.active {
+  opacity: 1;
+  transform: translateY(0%);
+}
+main .miwon_wrap {
+  opacity: 0;
+  transform: translateY(100%);
+  transition: 2s;
+}
+main .miwon_wrap.active {
+  opacity: 1;
+  transform: translateY(0%);
+}
+main .tobacco_wrap {
+  opacity: 0;
+  transform: translateY(100%);
+  transition: 2s;
+}
+main .tobacco_wrap.active {
+  opacity: 1;
+  transform: translateY(0%);
 }
 main .my-works {
   width: 100%;

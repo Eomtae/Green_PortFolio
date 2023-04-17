@@ -19,22 +19,6 @@
 .video-text h1 {
   font-size: 13rem;
 }
-.video-text .hash-address-box {
-  display: flex;
-  justify-content: space-between;
-  color: #000;
-  align-items: center;
-  font-size: 24px;
-  padding: 0 2%;
-}
-.video-text .hash-address-box span {
-  font-family: "S-CoreDream-3Light";
-  font-weight: 600;
-}
-.video-text .hash-address-box p {
-  font-size: 1.25rem;
-  font-weight: 600;
-}
 
 main {
   max-width: 1400px;
@@ -93,6 +77,8 @@ main .profile-wrapper .profile-text {
   line-height: 2;
   background-color: #FCF4EE;
   border-radius: 25px;
+  padding-left: 6rem;
+  word-break: keep-all;
 }
 main .profile-wrapper .profile-text .career-text {
   font-size: 0.875rem;

@@ -12,6 +12,48 @@ main .title-wrap {
 main .title-wrap h1 {
   font-family: "Koulen", cursive;
   font-size: 6.25rem;
+  -webkit-animation: fade 1s ease-in;
+          animation: fade 1s ease-in;
+}
+@-webkit-keyframes fade {
+  0% {
+    filter: blur(7px);
+    -moz-filter: blur(7px);
+    -webkit-filter: blur(7px);
+    opacity: 0;
+  }
+  50% {
+    filter: blur(7px);
+    -moz-filter: blur(7px);
+    -webkit-filter: blur(7px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0);
+    -moz-filter: blur(0);
+    -webkit-filter: blur(0);
+    opacity: 0.9;
+  }
+}
+@keyframes fade {
+  0% {
+    filter: blur(7px);
+    -moz-filter: blur(7px);
+    -webkit-filter: blur(7px);
+    opacity: 0;
+  }
+  50% {
+    filter: blur(7px);
+    -moz-filter: blur(7px);
+    -webkit-filter: blur(7px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0);
+    -moz-filter: blur(0);
+    -webkit-filter: blur(0);
+    opacity: 0.9;
+  }
 }
 main .my-works {
   width: 100%;
@@ -25,6 +67,40 @@ main .my-works figure {
   flex-direction: column;
   align-items: center;
   position: relative;
+  -webkit-animation: left-to-right 1.5s ease-in-out;
+          animation: left-to-right 1.5s ease-in-out;
+}
+@-webkit-keyframes left-to-right {
+  0% {
+    filter: blur(7px);
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+  50% {
+    filter: blur(7px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    filter: blur(0);
+    opacity: 0.9;
+  }
+}
+@keyframes left-to-right {
+  0% {
+    filter: blur(7px);
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+  50% {
+    filter: blur(7px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    filter: blur(0);
+    opacity: 0.9;
+  }
 }
 main .my-works figure img {
   width: 50%;
@@ -47,6 +123,40 @@ main .my-works figcaption {
   display: flex;
   flex-direction: column;
   line-height: 1.9;
+  -webkit-animation: text 1.5s ease-in-out;
+          animation: text 1.5s ease-in-out;
+}
+@-webkit-keyframes text {
+  0% {
+    filter: blur(5px);
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+  50% {
+    filter: blur(5px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    filter: blur(0);
+    opacity: 0.9s;
+  }
+}
+@keyframes text {
+  0% {
+    filter: blur(5px);
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+  50% {
+    filter: blur(5px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    filter: blur(0);
+    opacity: 0.9s;
+  }
 }
 main .my-works figcaption button {
   margin-top: 40%;

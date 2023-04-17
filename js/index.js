@@ -1,5 +1,3 @@
-// intersectionObserver 사용하여 스크롤 이벤트 효과 발생 FADE
-
 const elSec = new IntersectionObserver((entries, observer) => {
     entries.forEach((entry) => {
       if(entry.isIntersecting){
@@ -10,3 +8,14 @@ const elSec = new IntersectionObserver((entries, observer) => {
     });                            
   });
   document.querySelectorAll('.sections').forEach((sections) => elSec.observe(sections));
+// intersectionObserver 사용
+
+
+// function goToScroll(name) {
+//   var location = document.querySelector("." + name).offsetTop;
+//   window.scrollTo({top: location, behavior: 'smooth'});
+// }
+
+// document.querySelector('#ab').addEventListener('click',e =>{
+//   document.querySelector('.intro-wrapper').scrollIntoView({behavior:'smooth'})
+// })

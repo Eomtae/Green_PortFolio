@@ -23,22 +23,22 @@ $width:1400px;
     h1{
         font-size: 13rem;
     }
-    .hash-address-box{
-        display: flex;
-        justify-content: space-between;
-        color: #000;
-        align-items: center;
-        font-size: 24px;
-        padding: 0 2%;
-        span{
-            font-family: $basic-font;
-            font-weight:600;
-          }
-          p{
-            font-size: 1.25rem;
-            font-weight: 600;
-          }
-    }
+    // .hash-address-box{
+    //     display: flex;
+    //     justify-content: space-between;
+    //     color: #000;
+    //     align-items: center;
+    //     font-size: 24px;
+    //     padding: 0 2%;
+    //     span{
+    //         font-family: $basic-font;
+    //         font-weight:600;
+    //       }
+    //       p{
+    //         font-size: 1.25rem;
+    //         font-weight: 600;
+    //       }
+    // }
 }
 
 main{
@@ -99,6 +99,8 @@ main{
             line-height: 2;
             background-color: #FCF4EE;
             border-radius: 25px;
+            padding-left: 6rem;
+            word-break: keep-all;
             .career-text{
                 font-size: 0.875rem;
                 line-height: 1.4;

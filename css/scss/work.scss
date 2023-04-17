@@ -20,6 +20,7 @@ $width:1400px;
             position: relative;
             display: flex;
             align-items: center;
+            
             img{
                 width: 100%;
                 // filter: blur(4px);
@@ -33,13 +34,71 @@ $width:1400px;
             left: 50%;
             transform: translate(-50% ,-50%);
             letter-spacing: 10px;
+            animation: fade 1s ease-in-out;
+            @keyframes fade {
+                0% {
+                    filter:blur(7px);
+                    -moz-filter:blur(7px);
+                    -webkit-filter:blur(7px);
+                    opacity: 0;
+                    }
+                    50% {
+                    filter:blur(7px);
+                    -moz-filter:blur(7px);
+                    -webkit-filter:blur(7px);
+                    opacity: 0;
+                    }
+                    100% {
+                    filter:blur(0);
+                    -moz-filter:blur(0);
+                    -webkit-filter:blur(0);
+                    opacity: .9;
+                    }
+            }
         }
     }
 }
 main{
-    width: $width;
+    max-width: $width;
     font-family: $basic-font;
     margin: 0 auto;
+    .pension_wrap{
+        opacity: 0;
+        transform: translateY(100%);
+        transition: 2s;
+        &.active{
+            opacity: 1;
+            transform: translateY(0%);
+        }
+    }
+    .recipe_wrap{
+        opacity: 0;
+        transform: translateY(100%);
+        transition: 2s;
+        &.active{
+            opacity: 1;
+            transform: translateY(0%);
+        }
+    }
+    .miwon_wrap{
+        opacity: 0;
+        transform: translateY(100%);
+        transition: 2s;
+        &.active{
+            opacity: 1;
+            transform: translateY(0%);
+        }
+    }
+    .tobacco_wrap{
+        opacity: 0;
+        transform: translateY(100%);
+        transition: 2s;
+        &.active{
+            opacity: 1;
+            transform: translateY(0%);
+        }
+    }
+     // scroll-event --------------------------
     .my-works{
         width: 100%;
         display: flex;

@@ -14,6 +14,7 @@ body {
   padding: 0;
   background: #fcfcfc;
   font-family: "S-CoreDream-3Light";
+  scroll-behavior: smooth;
 }
 
 h1,
@@ -86,6 +87,16 @@ header nav .logo a {
   color: #06113C;
   cursor: none;
 }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  header nav .logo {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  header nav .logo {
+    font-size: 1rem;
+  }
+}
 header nav ul {
   width: 20%;
   display: flex;
@@ -93,6 +104,24 @@ header nav ul {
   align-items: center;
   font-size: 1.5rem;
   font-weight: 600;
+}
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+  header nav ul {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  header nav ul {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  header nav ul {
+    font-size: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
 }
 header nav ul a {
   color: #06113C;
@@ -119,7 +148,7 @@ header nav ul a:after {
 
 footer {
   width: 100%;
-  height: 30vh;
+  height: 20vh;
   background-color: #06113C;
   color: #fcfcfc;
   display: flex;
@@ -162,10 +191,106 @@ footer .contact .hash-tag span:nth-child(6) {
 footer .contact .hash-tag span:nth-child(7) {
   font-size: 2.25rem;
 }
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+  footer .contact .hash-tag span {
+    font-family: "S-CoreDream-3Light";
+    font-style: italic;
+    font-weight: 600;
+    word-break: keep-all;
+  }
+  footer .contact .hash-tag span:nth-child(1) {
+    font-size: 1.5rem;
+  }
+  footer .contact .hash-tag span:nth-child(2) {
+    font-size: 1rem;
+  }
+  footer .contact .hash-tag span:nth-child(3) {
+    font-size: 2rem;
+  }
+  footer .contact .hash-tag span:nth-child(4) {
+    font-size: 0.625rem;
+  }
+  footer .contact .hash-tag span:nth-child(5) {
+    font-size: 0.5rem;
+  }
+  footer .contact .hash-tag span:nth-child(6) {
+    font-size: 0.875rem;
+  }
+  footer .contact .hash-tag span:nth-child(7) {
+    font-size: 1.25rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  footer .contact .hash-tag span {
+    word-break: keep-all;
+  }
+  footer .contact .hash-tag span:nth-child(1) {
+    font-size: 1rem;
+  }
+  footer .contact .hash-tag span:nth-child(2) {
+    font-size: 0.5rem;
+  }
+  footer .contact .hash-tag span:nth-child(3) {
+    font-size: 1rem;
+  }
+  footer .contact .hash-tag span:nth-child(4) {
+    font-size: 0.325rem;
+  }
+  footer .contact .hash-tag span:nth-child(5) {
+    font-size: 0.5rem;
+  }
+  footer .contact .hash-tag span:nth-child(6) {
+    font-size: 0.675rem;
+  }
+  footer .contact .hash-tag span:nth-child(7) {
+    font-size: 0.75rem;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  footer .contact .hash-tag span {
+    word-break: keep-all;
+  }
+  footer .contact .hash-tag span:nth-child(1) {
+    font-size: 1rem;
+  }
+  footer .contact .hash-tag span:nth-child(2) {
+    font-size: 0.5rem;
+  }
+  footer .contact .hash-tag span:nth-child(3) {
+    font-size: 0.5rem;
+  }
+  footer .contact .hash-tag span:nth-child(4) {
+    font-size: 0.325rem;
+  }
+  footer .contact .hash-tag span:nth-child(5) {
+    font-size: 0.5rem;
+  }
+  footer .contact .hash-tag span:nth-child(6) {
+    font-size: 0.675rem;
+  }
+  footer .contact .hash-tag span:nth-child(7) {
+    font-size: 0.75rem;
+  }
+}
 footer .contact .address {
   width: 40%;
   font-size: 1.25rem;
   font-weight: 600;
   text-align: end;
   line-height: 2;
+}
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+  footer .contact .address {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  footer .contact .address {
+    font-size: 0.6rem;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  footer .contact .address {
+    font-size: 0.5rem;
+  }
 }/*# sourceMappingURL=common.css.map */

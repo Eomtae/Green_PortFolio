@@ -1,0 +1,132 @@
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+  .video-text {
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+  }
+  .video-text h1 {
+    font-size: 6.25rem;
+  }
+  main .profile-wrapper .profile-text {
+    padding-left: 1rem;
+  }
+  main .skill-wrapper .skill-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .skill-wrapper .skill-text .icon-layout .icon-text {
+    text-align: left;
+    word-break: keep-all;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .video-text {
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+  }
+  .video-text h1 {
+    font-size: 6.25rem;
+  }
+  main .intro-wrapper p {
+    word-break: keep-all;
+    line-height: 1.8;
+    font-size: 0.8rem;
+  }
+  main .profile-wrapper .profile-text {
+    padding-left: 1rem;
+  }
+  main .profile-wrapper .profile-text .career-text {
+    font-size: 0.875rem;
+    line-height: 1.8;
+  }
+  main .skill-wrapper .skill-text .icon-layout .icon-text {
+    font-size: 0.8rem;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .video-text {
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+  }
+  .video-text h1 {
+    font-size: 3.125rem;
+  }
+  main .intro-wrapper .img-box img {
+    width: 10.5rem;
+    height: 10.5rem;
+  }
+  main .intro-wrapper figcaption {
+    font-size: 2rem;
+  }
+  main .intro-wrapper p {
+    word-break: keep-all;
+    line-height: 1.8;
+    font-size: 0.7rem;
+  }
+  main .profile-wrapper {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3.125rem;
+  }
+  main .profile-wrapper .profile-box {
+    width: 30%;
+    border-right: none;
+  }
+  main .profile-wrapper .profile-box h2 {
+    margin-bottom: 30%;
+  }
+  main .profile-wrapper .profile-text {
+    width: 100%;
+    text-align: left;
+    padding-left: 1rem;
+  }
+  main .profile-wrapper .profile-text .career-text {
+    font-size: 0.875rem;
+    line-height: 1.4;
+  }
+  main .skill-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .skill-wrapper .skill-box {
+    width: 30%;
+    border-right: none;
+  }
+  main .skill-wrapper .skill-box h2 {
+    margin-bottom: 30%;
+  }
+  main .skill-wrapper .skill-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .skill-wrapper .skill-text .icon-layout {
+    width: 100%;
+    background-color: #FCF4EE;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+  }
+  main .skill-wrapper .skill-text .icon-layout .icon-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 1rem;
+  }
+  main .skill-wrapper .skill-text .icon-layout .icon-box img {
+    margin: 1rem;
+  }
+  main .skill-wrapper .skill-text .icon-layout .icon-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 0.8rem;
+  }
+}/*# sourceMappingURL=index-media.css.map */

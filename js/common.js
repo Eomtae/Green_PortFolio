@@ -1,7 +1,7 @@
-$("body").prepend("<header>");
-$('body').append('<footer>');
-$("header").load('./inc.html header nav');
-$('footer').load('./inc.html footer div')
+// $("body").prepend("<header>");
+// $('body').append('<footer>');
+// $("header").load('./inc.html header nav');
+// $('footer').load('./inc.html footer div')
 
 //header scroll background-color change
 $(function(){
