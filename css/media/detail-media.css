@@ -1,1 +1,246 @@
-/*# sourceMappingURL=detail-media.css.map */
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+  main {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  main .title-wrap {
+    justify-content: center;
+  }
+  main .title-wrap h1 {
+    font-family: "Koulen", cursive;
+    font-size: 6.25rem;
+    -webkit-animation: fade 1s ease-in;
+            animation: fade 1s ease-in;
+  }
+  main .my-works {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+  }
+  main .my-works figure {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .my-works figure img {
+    width: 50%;
+  }
+  main .my-works figure img:nth-child(2) {
+    width: 30%;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    transform: translateX(-50%);
+  }
+  main .my-works figure img:nth-child(3) {
+    width: 10%;
+    position: absolute;
+    top: 20%;
+    right: 30%;
+  }
+  main .my-works figcaption {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.8;
+    -webkit-animation: text 1.5s ease-in-out;
+            animation: text 1.5s ease-in-out;
+    font-size: 0.8125rem;
+  }
+  main .my-works figcaption button {
+    margin-top: 40%;
+    width: 50%;
+    height: 10%;
+    transition: all 0.5s;
+    border: none;
+    background-color: transparent;
+    font-size: 2.25rem;
+    color: #66a44a;
+    cursor: none;
+  }
+  main .my-works figcaption button:hover {
+    background-color: #66a44a;
+    color: #fcfcfc;
+    transition: all 0.5s;
+    border-radius: 10px;
+    -webkit-animation-name: pulse;
+            animation-name: pulse;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  main {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  main .title-wrap {
+    justify-content: center;
+  }
+  main .title-wrap h1 {
+    font-family: "Koulen", cursive;
+    font-size: 6.25rem;
+    -webkit-animation: fade 1s ease-in;
+            animation: fade 1s ease-in;
+  }
+  main .my-works {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+  main .my-works figure {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .my-works figure img {
+    width: 50%;
+  }
+  main .my-works figure img:nth-child(2) {
+    width: 30%;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    transform: translateX(-50%);
+  }
+  main .my-works figure img:nth-child(3) {
+    width: 10%;
+    position: absolute;
+    top: 20%;
+    right: 30%;
+  }
+  main .my-works figcaption {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.8;
+    -webkit-animation: text 1.5s ease-in-out;
+            animation: text 1.5s ease-in-out;
+    font-size: 0.75rem;
+    word-break: keep-all;
+  }
+  main .my-works figcaption button {
+    margin: 20% 0;
+    width: 50%;
+    height: 10%;
+    transition: all 0.5s;
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    color: #66a44a;
+    cursor: none;
+  }
+  main .my-works figcaption button:hover {
+    background-color: #66a44a;
+    color: #fcfcfc;
+    transition: all 0.5s;
+    border-radius: 25px;
+    -webkit-animation-name: pulse;
+            animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  main {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  main .title-wrap {
+    height: 30vh;
+    justify-content: center;
+  }
+  main .title-wrap h1 {
+    font-family: "Koulen", cursive;
+    font-size: 2.5rem;
+    -webkit-animation: fade 1s ease-in;
+            animation: fade 1s ease-in;
+  }
+  main .my-works {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .my-works figure {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .my-works figure img {
+    width: 90%;
+  }
+  main .my-works figure img:nth-child(2) {
+    width: 30%;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    transform: translate(-50%, 50%);
+  }
+  main .my-works figure img:nth-child(3) {
+    width: 10%;
+    position: absolute;
+    top: 20%;
+    right: 30%;
+    transform: translate(100%, 150%);
+  }
+  main .my-works figcaption {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.8;
+    -webkit-animation: text 1.5s ease-in-out;
+            animation: text 1.5s ease-in-out;
+    font-size: 0.75rem;
+    word-break: keep-all;
+  }
+  main .my-works figcaption p, main .my-works figcaption span {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0);
+            clip-path: polygon(0 0, 0 0, 0 0);
+  }
+  main .my-works figcaption button {
+    margin: 20% 0;
+    width: 50%;
+    height: 10%;
+    transition: all 0.5s;
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    color: #66a44a;
+    cursor: none;
+  }
+  main .my-works figcaption button:hover {
+    background-color: #66a44a;
+    color: #fcfcfc;
+    transition: all 0.5s;
+    border-radius: 25px;
+    -webkit-animation-name: pulse;
+            animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+  }
+}/*# sourceMappingURL=detail-media.css.map */
