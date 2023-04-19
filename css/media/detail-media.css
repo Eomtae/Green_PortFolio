@@ -9,8 +9,7 @@
   main .title-wrap h1 {
     font-family: "Koulen", cursive;
     font-size: 6.25rem;
-    -webkit-animation: fade 1s ease-in;
-            animation: fade 1s ease-in;
+    animation: fade 1s ease-in;
   }
   main .my-works {
     width: 100%;
@@ -45,8 +44,7 @@
     display: flex;
     flex-direction: column;
     line-height: 1.8;
-    -webkit-animation: text 1.5s ease-in-out;
-            animation: text 1.5s ease-in-out;
+    animation: text 1.5s ease-in-out;
     font-size: 0.8125rem;
   }
   main .my-works figcaption button {
@@ -65,14 +63,10 @@
     color: #fcfcfc;
     transition: all 0.5s;
     border-radius: 10px;
-    -webkit-animation-name: pulse;
-            animation-name: pulse;
-    -webkit-animation-duration: 1s;
-            animation-duration: 1s;
-    -webkit-animation-timing-function: linear;
-            animation-timing-function: linear;
-    -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -86,8 +80,7 @@
   main .title-wrap h1 {
     font-family: "Koulen", cursive;
     font-size: 6.25rem;
-    -webkit-animation: fade 1s ease-in;
-            animation: fade 1s ease-in;
+    animation: fade 1s ease-in;
   }
   main .my-works {
     width: 100%;
@@ -122,8 +115,7 @@
     display: flex;
     flex-direction: column;
     line-height: 1.8;
-    -webkit-animation: text 1.5s ease-in-out;
-            animation: text 1.5s ease-in-out;
+    animation: text 1.5s ease-in-out;
     font-size: 0.75rem;
     word-break: keep-all;
   }
@@ -143,14 +135,10 @@
     color: #fcfcfc;
     transition: all 0.5s;
     border-radius: 25px;
-    -webkit-animation-name: pulse;
-            animation-name: pulse;
-    -webkit-animation-duration: 1.5s;
-            animation-duration: 1.5s;
-    -webkit-animation-timing-function: linear;
-            animation-timing-function: linear;
-    -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
+    animation-name: pulse;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
@@ -165,8 +153,7 @@
   main .title-wrap h1 {
     font-family: "Koulen", cursive;
     font-size: 2.5rem;
-    -webkit-animation: fade 1s ease-in;
-            animation: fade 1s ease-in;
+    animation: fade 1s ease-in;
   }
   main .my-works {
     width: 100%;
@@ -204,8 +191,7 @@
     flex-direction: column;
     align-items: center;
     line-height: 1.8;
-    -webkit-animation: text 1.5s ease-in-out;
-            animation: text 1.5s ease-in-out;
+    animation: text 1.5s ease-in-out;
     font-size: 0.75rem;
     word-break: keep-all;
   }
@@ -234,13 +220,9 @@
     color: #fcfcfc;
     transition: all 0.5s;
     border-radius: 25px;
-    -webkit-animation-name: pulse;
-            animation-name: pulse;
-    -webkit-animation-duration: 1.5s;
-            animation-duration: 1.5s;
-    -webkit-animation-timing-function: linear;
-            animation-timing-function: linear;
-    -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
+    animation-name: pulse;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
   }
 }/*# sourceMappingURL=detail-media.css.map */
