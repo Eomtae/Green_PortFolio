@@ -15,6 +15,18 @@
   font-family: "Italiana", serif;
   color: #C9764C;
   text-align: center;
+  animation: fade 1.5s ease-in;
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 .video-text h1 {
   font-size: 13rem;

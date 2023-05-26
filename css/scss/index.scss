@@ -20,25 +20,21 @@ $width:1400px;
     font-family: $banner-font;
     color: #C9764C;
     text-align: center;
+    animation: fade 1.5s ease-in;
+    @keyframes fade{
+        0%{
+            opacity: 0;
+        }
+        50%{
+            opacity:.5
+        }
+        100%{
+            opacity:1;
+        }
+    }  
     h1{
         font-size: 13rem;
     }
-    // .hash-address-box{
-    //     display: flex;
-    //     justify-content: space-between;
-    //     color: #000;
-    //     align-items: center;
-    //     font-size: 24px;
-    //     padding: 0 2%;
-    //     span{
-    //         font-family: $basic-font;
-    //         font-weight:600;
-    //       }
-    //       p{
-    //         font-size: 1.25rem;
-    //         font-weight: 600;
-    //       }
-    // }
 }
 
 main{
